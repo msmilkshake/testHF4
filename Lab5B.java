@@ -1,21 +1,7 @@
 import java.util.*;
 
 public class LinkedListPro {
-	// Verifica se a fila está vazia
-	public boolean isEmpty() {}
-
-	// Devolve o número de itens contidos na fila
-	public int size() {}
-
-	// Insere um novo item na fila
-	public void enqueue(String item) {}
-
-	// Retira um item da fila
-	public String dequeue() {}
-
-	// Verifica se um item se encontra na fila
-	public boolean find(String key) {}
-
+	
 	// Método main de teste
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -32,4 +18,19 @@ public class LinkedListPro {
 		System.out.println(llp.size() + " " + llp.find(sc.next()));
 		sc.close();
 	}
+	
+	// Verifica se a fila está vazia
+	public boolean isEmpty() {}
+
+	// Devolve o número de itens contidos na fila
+	public int size() {}
+
+	// Insere um novo item na fila
+	public void enqueue(String item) {}
+
+	// Retira um item da fila
+	public String dequeue() {}
+
+	// Verifica se um item se encontra na fila
+	public boolean find(String key) {}
 }
